@@ -1,6 +1,6 @@
 <?
 define("MAQUINA","localhost");
 define("USUARIO","root");
-define("CLAVE","");
+define("CLAVE","Elastix");
 define("DB","mares");
 ?>

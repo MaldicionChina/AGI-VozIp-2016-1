@@ -24,11 +24,11 @@ CREATE TABLE mares.revision (
     FOREIGN KEY(fk_idMateria) REFERENCES Materia(id)
 );
 
-INSERT INTO estudiantes VALUES ( 1017224184, 'Alexis Rodríguez'); 
-INSERT INTO estudiantes VALUES ( 1038481420, 'Joaquin Hernandez'); 
+INSERT INTO mares.estudiantes VALUES ( 1017224184, 'Alexis Rodríguez'); 
+INSERT INTO mares.estudiantes VALUES ( 1038481420, 'Joaquin Hernandez'); 
 
-INSERT INTO materia VALUES (1,1,1017224184,'Fisica de Campos',5.2);
-INSERT INTO materia VALUES (2,2,1017224184,'Fisica Mecanica',5.2);
-INSERT INTO materia VALUES (3,3,1038481420,'VozIp',5.2);
+INSERT INTO mares.materia VALUES (1,1,1017224184,'Fisica de Campos',5.2);
+INSERT INTO mares.materia VALUES (2,2,1017224184,'Fisica Mecanica',5.2);
+INSERT INTO mares.materia VALUES (3,3,1038481420,'VozIp',5.2);
 
 
